@@ -60,7 +60,7 @@ def collect_episode(
 ) -> dict:
     observation, _ = env.reset(seed=seed)
 
-    breakpoint()
+    
     if not show_goal:
         hide_goal_marker(env)
 
